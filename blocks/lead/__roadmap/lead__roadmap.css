@@ -1,3 +1,6 @@
 .lead__roadmap {
+    position: absolute;
+    top: 90.21px;
+    left: 23.5px;
     border: 1px solid red;
 }
