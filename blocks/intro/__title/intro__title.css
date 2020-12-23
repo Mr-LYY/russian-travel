@@ -1,3 +1,11 @@
 .intro__title {
-    
+    font-family: "Inter";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 1.07;
+    color: white;
+    text-align: left;
+    padding: 92px 0 40px;
+    margin: 0;
 }

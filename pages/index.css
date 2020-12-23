@@ -13,7 +13,9 @@
 /*header*/
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link-case/header__lang-link-case.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /*lead*/
 
@@ -23,6 +25,7 @@
 @import url(../blocks/lead/__image-cover/lead__image-cover.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__roadmap/lead__roadmap.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 /*intro*/
 
