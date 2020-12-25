@@ -2,6 +2,23 @@
     /*display: flex;
     flex-direction: column;
     justify-content: center;*/
-    width: 984px;
+    width: calc(100% - 23.125%);
     margin: 0 auto;
+    padding: 0 11.5625%;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: calc(100% - 48px*2);
+        margin: 0 auto;
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
 }

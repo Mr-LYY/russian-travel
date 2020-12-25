@@ -11,3 +11,8 @@
     margin: 0;
     margin-right: 18px;      
 }
+
+.footer__link:hover {
+    color: #AAAAAA;
+    transition: color 0.2s;
+}
