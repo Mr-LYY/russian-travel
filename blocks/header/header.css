@@ -11,3 +11,10 @@
         padding-bottom: 4.6875‬%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .header {     
+        width: calc(100% - 24px*2);
+        padding: 28px 24px 6.25%;
+    }
+}

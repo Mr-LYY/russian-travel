@@ -10,3 +10,10 @@
         padding: 0 4.6875% 12px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+        width: calc(100% - 3.125%*2);
+        padding: 0 3.125% 17px;
+    }
+}

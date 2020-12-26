@@ -13,3 +13,9 @@
     border-bottom: 2px solid #AAAAAA;
     transition: color 0.2s;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website_url_link {
+        border-bottom: 1px solid white;
+    }
+}
