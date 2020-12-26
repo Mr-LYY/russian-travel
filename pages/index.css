@@ -53,9 +53,10 @@
 /*cover*/
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__text/_title/cover__text_title.css);
+@import url(../blocks/cover/__text/_subtitle/cover__text_subtitle.css);
 
 /*footer*/
 
