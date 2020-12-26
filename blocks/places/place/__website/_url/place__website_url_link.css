@@ -17,5 +17,7 @@
 @media screen and (max-width: 768px) {
     .place__website_url_link {
         border-bottom: 1px solid white;
+        font-size: 2.34375vw;
+        
     }
 }

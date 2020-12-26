@@ -11,4 +11,21 @@
     margin-left: auto;
 }
 
+@media screen and (max-width: 768px) {
+    
+    .footer__copyright {
+
+        font-size: 1.82vw;     
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .footer__copyright {
+        
+        font-size: 14px;
+        line-height: 1;
+        padding-top: 16px;     
+    }
+}
 

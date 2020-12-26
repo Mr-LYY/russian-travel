@@ -10,3 +10,15 @@
     color: #AAAAAA;
     transition: color 0.2s;
 }
+
+@media screen and (max-width: 768px) {
+    .header__lang-link {
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        margin-left: 13px;
+    }
+}

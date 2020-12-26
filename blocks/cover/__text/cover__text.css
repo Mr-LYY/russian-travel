@@ -15,8 +15,18 @@
 
 @media screen and (max-width: 768px) {
     .cover__text {
+        
+        max-width: 72.92vw;
+        left: calc((100% - 72.92vw)/2);
+        top: 7.69vw;
+    }
+}
 
-        left: calc((100% - 560px)/2);
-        top: 23.97%;
+@media screen and (max-width: 320px) {
+    .cover__text {
+        
+        max-width: 90vw;
+        left: calc((100% - 90vw)/2);
+        top: 6.3vw;
     }
 }

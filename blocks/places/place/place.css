@@ -17,12 +17,21 @@
 
 @media screen and (max-width: 768px) {
     .place {
-        grid-column-gap: 28px;
-        padding-bottom: 73px;
+        grid-column-gap: 3.646vw;
+        padding-bottom: 9.51vw;
     }
 
     
     .place:first-of-type .place__title {
         padding-right: 5%;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
 }
