@@ -6,14 +6,6 @@
     padding: 28px 48px 4.375%;
 }
 
-@media screen and (max-width: 1024px) {
-    .header {
-        
-        width: calc(100% - 48px*2);
-        padding-bottom: 4.6875‬%;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .header {     
         width: calc(100% - 24px*2);
