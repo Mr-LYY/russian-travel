@@ -1,32 +1,33 @@
 .cover__text {
 
-    position: absolute;
     max-width: 560px;
     font-family: "Inter";
     font-style: normal;
     color: white;
     text-align: center;
     padding: 0;
-    margin: 0;
-    left: calc((100% - 560px)/2);
-    top: 33.1%;
+    margin: -42% 0 21% calc((100% - 560px)/2);
     z-index: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__text {
+        
+        margin: -43% 0 19% calc((100% - 560px)/2);
+    }
 }
 
 @media screen and (max-width: 768px) {
     .cover__text {
-        
         max-width: 72.92vw;
-        left: calc((100% - 72.92vw)/2);
-        top: 7.69vw;
+        margin: -48% 0 16% calc((100% - 72.92vw)/2);
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__text {
-        
+
         max-width: 90vw;
-        left: calc((100% - 90vw)/2);
-        top: 6.3vw;
+        margin: -54% 0 5% calc((100% - 90vw)/2);
     }
 }
