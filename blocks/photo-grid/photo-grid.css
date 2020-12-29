@@ -4,7 +4,8 @@
     grid-auto-rows: 1fr;
     grid-gap: 16px;
     padding: 92px 48px;
-    width: calc(100% - 48px*2);
+    max-width: calc(1280px - 48px*2);
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {

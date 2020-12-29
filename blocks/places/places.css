@@ -1,7 +1,8 @@
 .places {
-    width: calc(100% - 11.5625%*2);
+    
     margin: 0;
-    padding: 0 11.5625% 12px;
+    padding: 0;
+    padding-bottom: 12px;
 }
 
 @media screen and (max-width: 1024px) {

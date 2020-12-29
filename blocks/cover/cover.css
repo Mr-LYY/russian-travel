@@ -1,8 +1,14 @@
 .cover {
     position: relative;
-    width: calc(100% - 3.75%*2);
-    margin: 0;
-    padding: 0 3.75%;
+    max-width: calc(1280px - 48px*2);
+    margin: 0 auto;
+    padding: 0 48px;
+}
+
+.cover:hover .cover__image {
+
+    background-color: #2A2C2F;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 1024px){

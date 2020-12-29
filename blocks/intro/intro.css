@@ -1,7 +1,8 @@
 .intro {
     color: white;
-    width: 690px;
-    padding: 0 11.5625%;
+    max-width: calc(1280px - (148px + 315px));
+    padding: 0 315px 0 148px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
