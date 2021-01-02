@@ -1,33 +1,26 @@
 .cover__text {
-
+    
+    position: relative;
+    bottom: 495px;
     max-width: 560px;
-    font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
-    font-style: normal;
-    color: white;
-    text-align: center;
-    padding: 0;
-    margin: -42% 0 21% calc((100% - 560px)/2);
-    z-index: 1;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
+    
     .cover__text {
-        
-        margin: -43% 0 19% calc((100% - 560px)/2);
+
+        bottom: 41.8vw;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .cover__text {
-        max-width: 72.92vw;
-        margin: -48% 0 16% calc((100% - 72.92vw)/2);
-    }
-}
 
 @media screen and (max-width: 320px) {
+    
     .cover__text {
 
-        max-width: 90vw;
-        margin: -54% 0 5% calc((100% - 90vw)/2);
+        bottom: 167px;
+        max-width: 288px;
+        margin: 0 auto;
     }
 }

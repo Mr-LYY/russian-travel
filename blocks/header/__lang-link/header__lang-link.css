@@ -7,8 +7,8 @@
 }
 
 .header__lang-link:hover {
-    color: #AAAAAA;
-    transition: color 0.2s;
+    opacity: 0.8;
+    transition: opacity 0.2s;
 }
 
 @media screen and (max-width: 768px) {

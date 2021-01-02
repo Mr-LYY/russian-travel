@@ -3,11 +3,18 @@
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 1.659;
     color: white;
     text-align: left;
     padding: 0;
     padding-bottom: 33px;
     margin: 0;
     max-width: 690px;
+}
+
+@media screen and (max-width: 320px) {
+    .intro__text {
+        
+        padding: 0 16px 34px;
+    }
 }

@@ -1,3 +1,6 @@
 .lead__image-cover {
+    
     position: relative;
+    margin: 0;
+    padding: 0;
 }

@@ -8,12 +8,20 @@
     text-align: left;
     padding: 0;
     margin: 0;
+    max-width: 460px;
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
         font-size: 5.46875vw;
         line-height: 1.095;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .place__title {
+        
+        padding-bottom: 28px;
     }
 }
 
