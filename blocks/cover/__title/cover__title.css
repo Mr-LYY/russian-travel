@@ -9,7 +9,9 @@
     color: white;
     text-align: center;
     padding: 0;
+    padding-top: 19.140625vw;
     margin: 0 auto;
+    z-index: 1;
 }
 
 @media screen and (max-width: 768px) {

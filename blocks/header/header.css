@@ -3,7 +3,7 @@
     max-width: calc(1280px - 48px*2);
     display: flex;
     justify-content: space-between;
-    max-height: 52px;
+    min-height: 52px;
     padding: 28px 48px 56px;
     margin: 0 auto;
 }
@@ -21,7 +21,7 @@
     .header {
 
         max-width: 320px;
-        height: 42px;
+        min-height: 42px;
         padding: 16px 16px 15%;
     }
 }

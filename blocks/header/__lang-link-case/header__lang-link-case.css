@@ -1,6 +1,8 @@
 .header__lang-link-case {
 
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    min-width: 77px;
     font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
     color: white;
     font-weight: 400;

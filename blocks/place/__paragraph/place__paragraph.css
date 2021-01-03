@@ -31,8 +31,7 @@
 @media screen and (max-width: 320px) {
     .place__paragraph {
         font-size: 16px;
-        padding: 25px 16px 0;
-        padding-right: 33px;
+        padding: 25px 16px 0 33px;
     }
     .place__paragraph:nth-of-type(2) {
         padding-bottom: 50px;
