@@ -17,12 +17,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .intro__title {
-        padding: 88px 0 40px;
-    }
-}
-
 @media screen and (max-width: 320px) {
     
     .intro__title {
